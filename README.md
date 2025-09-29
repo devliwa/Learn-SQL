@@ -6,7 +6,7 @@
 - [Data Types in SQL](https://www.w3schools.com/sql/sql_datatypes.asp)
 - [Primary Keys in SQL](https://www.w3schools.com/sql/sql_primarykey.asp)
 - [Completed Lesson SQL Demo Code](https://www.mycompiler.io/view/08q0XDT7TFp)
-
+create table
 ```sql
 CREATE TABLE products (
 id INT NOT NULL,
@@ -15,6 +15,7 @@ price MONEY,
 PRIMARY KEY (id)
 )
 ```
+insert data
 ```sql
 INSERT INTO products VALUES (1, "Pen", 1.20)
 ```
@@ -23,8 +24,28 @@ INSERT INTO products VALUES (id, name) VALUES (2, "pencil")
 ```
 
 #### SQL Commands: READ, SELECT, and WHERE
+read data
+```sql
+SELECT * FROM 'products';
+```
+select data
+```sql
+SELECT name, price FROM 'products';
+```
+where data
+```sql
+SELECT * FROM products WHERE id=1
+```
 
 #### Updating Single Values and Adding Columns in SQL
+update single value
+```sql
+UPDATE products SET price = 0.80 WHERE id=2
+```
+adding column
+```sql
+ALTER TABLE products ADD stock INT
+```
 
 #### SQL Commands: DELETE
 
