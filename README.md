@@ -17,10 +17,10 @@ PRIMARY KEY (id)
 ```
 insert data
 ```sql
-INSERT INTO products VALUES (1, "Pen", 1.20)
+INSERT INTO products VALUES (1, 'Pen', 1.20)
 ```
 ```sql
-INSERT INTO products VALUES (id, name) VALUES (2, "pencil")
+INSERT INTO products VALUES (id, name) VALUES (2, 'pencil')
 ```
 
 #### SQL Commands: READ, SELECT, and WHERE
