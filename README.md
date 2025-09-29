@@ -7,6 +7,21 @@
 - [Primary Keys in SQL](https://www.w3schools.com/sql/sql_primarykey.asp)
 - [Completed Lesson SQL Demo Code](https://www.mycompiler.io/view/08q0XDT7TFp)
 
+```sql
+CREATE TABLE products (
+id INT NOT NULL,
+name STRING,
+price MONEY,
+PRIMARY KEY (id)
+)
+```
+```sql
+INSERT INTO products VALUES (1, "Pen", 1.20)
+```
+```sql
+INSERT INTO products VALUES (id, name) VALUES (2, "pencil")
+```
+
 #### SQL Commands: READ, SELECT, and WHERE
 
 #### Updating Single Values and Adding Columns in SQL
