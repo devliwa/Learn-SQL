@@ -7,52 +7,53 @@
 - [Primary Keys in SQL](https://www.w3schools.com/sql/sql_primarykey.asp)
 - [Completed Lesson SQL Demo Code](https://www.mycompiler.io/view/08q0XDT7TFp)
   
-create table
+-- create customers table
+```sql
+CREATE TABLE customers (
+  id INT,
+  first_name STRING,
+  last_name STRING,
+  address STRING,
+  PRIMARY KEY (id)
+);
+```
+-- insert some values
+```sql
+INSERT INTO customers VALUES (1, 'John', 'Doe', '32 Cherry Blvd');
+INSERT INTO customers VALUES (2, 'Angela', 'Yu', '12 Sunset Drive');
+```
+-- fetch some values
+```sql
+SELECT * FROM customers WHERE first_name = 'John';
+```
+
+-- create the products table
 ```sql
 CREATE TABLE products (
-id INT NOT NULL,
-name STRING,
-price MONEY,
-PRIMARY KEY (id)
-)
-```
-insert data
-```sql
-INSERT INTO products VALUES (1, 'Pen', 1.20)
-```
-```sql
-INSERT INTO products (id, name) VALUES (2, 'pencil')
+    id INT NOT NULL,
+    name STRING,
+    price MONEY,
+    PRIMARY KEY (id)
+);
 ```
 
-#### SQL Commands: READ, SELECT, and WHERE
-read data
+--insert a product into products table
 ```sql
-SELECT * FROM 'products';
+INSERT INTO products VALUES (1, 'Pen', 1.20);
 ```
-select data
+-- select a product with id = 1
 ```sql
-SELECT name, price FROM 'products';
+SELECT * FROM products WHERE id = 1;
 ```
-where data
+--insert a product with no price into products table
 ```sql
-SELECT * FROM products WHERE id=1
+INSERT INTO products (id, name) VALUES (2, 'Pencil');
 ```
-
-#### Updating Single Values and Adding Columns in SQL
-update single value
+--select a product with id = 2
 ```sql
-UPDATE products SET price = 0.80 WHERE id=2
-```
-adding column
-```sql
-ALTER TABLE products ADD stock INT
+SELECT * FROM products WHERE id = 2;
 ```
 
-#### SQL Commands: DELETE
-delete
-```sql
-DELETE FROM products WHERE id = 2
-```
 
 #### Understanding SQL Relationships, Foreign Keys and Inner Joins 
 - [Foreign Keys in SQL](https://www.w3schools.com/sql/sql_foreignkey.asp)
