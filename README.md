@@ -56,4 +56,13 @@ DELETE FROM products WHERE id = 2
 #### Understanding SQL Relationships, Foreign Keys and Inner Joins 
 - [Foreign Keys in SQL](https://www.w3schools.com/sql/sql_foreignkey.asp)
 - [Inner Joins](https://www.w3schools.com/sql/sql_join_inner.asp)
-- [Completed SQL demo Project](https://www.mycompiler.io/view/7ZK5EPwt68f)
+- [Completed SQL demo Project](https://www.mycompiler.io/view/7ZK5EPwt68f
+```sql
+Create TABLE orders (
+id INT NOT NULL,
+order_number INT,
+customer_id INT,
+PRIMARY KEY (id),
+FOREIGN KEY (customer_id) REFERECNES customers(id),
+FOREIGN KEY (profuct_id) REFERENCES products(id)
+)
