@@ -75,8 +75,9 @@ CREATE TABLE customers (
 INSERT INTO customers VALUES (1, 'John', 'Doe', '32 Cherry Blvd');
 INSERT INTO customers VALUES (2, 'charles', 'liwa', '12 Sunset Drive');
 ```
-```sql
+
 -- fetch some values
+```sql
 SELECT * FROM customers WHERE first_name = 'John';
 ```
 
