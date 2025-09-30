@@ -1,4 +1,4 @@
-# Learn-SQL
+# Learn-SQL-CRUD
 
 #### SQL Commands: CREATE table and INSERT Data
 - [W3Schools on SQL](https://www.w3schools.com/sql/)
@@ -20,7 +20,7 @@ insert data
 INSERT INTO products VALUES (1, 'Pen', 1.20)
 ```
 ```sql
-INSERT INTO products VALUES (id, name) VALUES (2, 'pencil')
+INSERT INTO products (id, name) VALUES (2, 'pencil')
 ```
 
 #### SQL Commands: READ, SELECT, and WHERE
@@ -48,6 +48,10 @@ ALTER TABLE products ADD stock INT
 ```
 
 #### SQL Commands: DELETE
+delete
+```sql
+DELETE FROM products WHERE id = 2
+```
 
 #### Understanding SQL Relationships, Foreign Keys and Inner Joins 
 - [Foreign Keys in SQL](https://www.w3schools.com/sql/sql_foreignkey.asp)
