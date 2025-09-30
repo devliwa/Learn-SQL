@@ -6,6 +6,7 @@
 - [Data Types in SQL](https://www.w3schools.com/sql/sql_datatypes.asp)
 - [Primary Keys in SQL](https://www.w3schools.com/sql/sql_primarykey.asp)
 - [Completed Lesson SQL Demo Code](https://www.mycompiler.io/view/08q0XDT7TFp)
+  
 create table
 ```sql
 CREATE TABLE products (
@@ -56,7 +57,7 @@ DELETE FROM products WHERE id = 2
 #### Understanding SQL Relationships, Foreign Keys and Inner Joins 
 - [Foreign Keys in SQL](https://www.w3schools.com/sql/sql_foreignkey.asp)
 - [Inner Joins](https://www.w3schools.com/sql/sql_join_inner.asp)
-- [Completed SQL demo Project](https://www.mycompiler.io/view/7ZK5EPwt68f
+- [Completed SQL demo Project](https://www.mycompiler.io/view/7ZK5EPwt68f)
 
 -- create customers table
 ```sql
