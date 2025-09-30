@@ -1,6 +1,6 @@
 # Learn-SQL-CRUD
 
-#### SQL Commands: CREATE table and INSERT Data
+### SQL Commands: CREATE table and INSERT Data
 - [W3Schools on SQL](https://www.w3schools.com/sql/)
 - [SQL Playground on sqliteonline.com](https://sqliteonline.com/#fiddle-5bbdbaef7288bo2ajn2wly03)
 - [Data Types in SQL](https://www.w3schools.com/sql/sql_datatypes.asp)
@@ -55,7 +55,7 @@ SELECT * FROM products WHERE id = 2;
 ```
 
 
-#### Understanding SQL Relationships, Foreign Keys and Inner Joins 
+### Understanding SQL Relationships, Foreign Keys and Inner Joins 
 - [Foreign Keys in SQL](https://www.w3schools.com/sql/sql_foreignkey.asp)
 - [Inner Joins](https://www.w3schools.com/sql/sql_join_inner.asp)
 - [Completed SQL demo Project](https://www.mycompiler.io/view/7ZK5EPwt68f)
