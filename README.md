@@ -20,7 +20,7 @@ CREATE TABLE customers (
 -- insert some values
 ```sql
 INSERT INTO customers VALUES (1, 'John', 'Doe', '32 Cherry Blvd');
-INSERT INTO customers VALUES (2, 'Angela', 'Yu', '12 Sunset Drive');
+INSERT INTO customers VALUES (2, 'Jane', 'Dae', '12 Sunset Drive');
 ```
 -- fetch some values
 ```sql
